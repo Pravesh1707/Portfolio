@@ -29,8 +29,9 @@
                 <i class="fa fa-bars" onclick="openmenu()"></i>
             </nav>
             <div class="header-text">
-                <p>FrontEnd Developer</p>
+           
                 <h1>Hi, I'm <span> Pravesh</span><br> Kumar</h1>
+                <h4>I am a <span style = "color: #ff004f" class="typing"></span></h4>
             </div>
         </div>
     </div>
@@ -206,5 +207,14 @@
             .catch(error => console.error('Error!', error.message))
         })
       </script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typed = new Typed(".typing", {
+            strings: ["Java Developer.", "Frontend Developer.","Programmer."],
+            typeSpeed:70,
+            backSpeed: 70,
+            loop: true
+        })
+    </script>
 </body>
 </html>
